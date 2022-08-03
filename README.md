@@ -1,24 +1,24 @@
-# tailwind-manage-landing-page
+# Tailwind Manage Landing Page
 
-## Project setup
+
+# Usage
+
+Install dependencies (Tailwind)
+
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+Run the Tailwind CLI to compile the **input.css** during development. The output file is **css/main.css**
+
 ```
-npm run serve
+npm run watch
 ```
 
-### Compiles and minifies for production
+To build once run...
+
 ```
 npm run build
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+You can edit the scripts in package.json and the tailwind.config.js file to change input/output locations
